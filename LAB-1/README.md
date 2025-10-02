@@ -1,13 +1,13 @@
 # Advanced Regression Analysis Dashboard
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://econometrics-hxq3uxg78rjejooxjshbnu.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://econometrics-kcyrppu9gtxjkg9iubwpuy.streamlit.app/)
 
 An interactive web application built with Streamlit for powerful financial analysis providing a full suite of diagnostics for Simple and Multiple OLS Regression, including VIF scores for multicollinearity and Q-Q plots for residual analysis
 
 ## 🚀 Live Demo
 
 You can access the live, deployed application here:
-**[https://econometrics-hxq3uxg78rjejooxjshbnu.streamlit.app/](https://econometrics-hxq3uxg78rjejooxjshbnu.streamlit.app/)**
+**[https://econometrics-kcyrppu9gtxjkg9iubwpuy.streamlit.app/](https://econometrics-kcyrppu9gtxjkg9iubwpuy.streamlit.app/)**
 
 ## 📋 Table of Contents
 
@@ -16,7 +16,6 @@ You can access the live, deployed application here:
 - [Technology Stack](#-technology-stack)
 - [How to Use the App](#-how-to-use-the-app)
 - [Local Setup](#-local-setup)
-- [Repository Structure](#-repository-structure)
 
 ## 📖 Overview
 
