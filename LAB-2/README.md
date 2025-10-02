@@ -16,7 +16,6 @@ You can access the live, deployed application here:
 - [Technology Stack](#-technology-stack)
 - [How to Use the App](#-how-to-use-the-app)
 - [Local Setup](#-local-setup)
-- [Repository Structure](#-repository-structure)
 
 ## 📖 Overview
 
