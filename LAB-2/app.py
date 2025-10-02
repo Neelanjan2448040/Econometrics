@@ -122,7 +122,7 @@ def run_adf_test(series, name):
 # --- UI Layout ---
 with st.sidebar:
     st.title("💹 Econometric Dashboard")
-    st.markdown("<p style='color: #333;'>NIFTY 50 Market Analysis.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #333;'>Market Analysis.</p>", unsafe_allow_html=True)
     st.divider()
     
     st.header("📂 Data Upload")
@@ -188,7 +188,7 @@ with tab_eda:
                     fig, ax = plt.subplots(figsize=(10, 6)); plot_df.plot(x='Date', y=col_name, ax=ax, color=eda_colors[i], legend=False); ax.set_ylabel(col_name); ax.set_title(f'Time Series of {dataset_name} Price')
                     st.pyplot(fig)
             else:
-                st.info(f"Upload data for **{dataset_name}** to see its analysis.")
+                st.info(f"Upload data to see its analysis.")
 
 # --- Combined Analysis Logic ---
 if len(files_dict) == 4:
