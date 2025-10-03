@@ -25,31 +25,31 @@ Its standout feature is the dual-analysis capability for multiple regression, al
 
 ## ✨ Features
 
-- *✌ Dual Regression Modes:* Choose between *Simple* and *Multiple* Linear Regression.
-- *🔀 Prices vs. Returns Analysis:* Seamlessly switch between analyzing raw price levels or auto-calculated log returns for multiple regression.
-- *⬆ Flexible Data Upload:* Supports both CSV and Excel file formats.
-- *🔢 Automatic Equation Generation::* Displays both the general mathematical formula and the final fitted regression equation with calculated coefficients.
-- *📉 OLS Regression:* Instantly run an Ordinary Least Squares (OLS) regression model on the selected variables.
-- *📄 Detailed Summaries:* View a complete OLS regression results table, including coefficients, R-squared, p-values, and other key statistics.
-- *🔍 Data Preview:* Inspect the first few rows of your uploaded data to ensure it's loaded correctly.
+- **✌ Dual Regression Modes:** Choose between *Simple* and *Multiple* Linear Regression.
+- **🔀 Prices vs. Returns Analysis:** Seamlessly switch between analyzing raw price levels or auto-calculated log returns for multiple regression.
+- **⬆ Flexible Data Upload:** Supports both CSV and Excel file formats.
+- **🔢 Automatic Equation Generation::** Displays both the general mathematical formula and the final fitted regression equation with calculated coefficients.
+- **📉 OLS Regression:** Instantly run an Ordinary Least Squares (OLS) regression model on the selected variables.
+- **📄 Detailed Summaries:** View a complete OLS regression results table, including coefficients, R-squared, p-values, and other key statistics.
+- **🔍 Data Preview:** Inspect the first few rows of your uploaded data to ensure it's loaded correctly.
 
 ## 🛠 Technology Stack
 
-- *Python:* Core programming language.
-- *Streamlit:* For building and deploying the interactive web application.
-- *Pandas:* For data manipulation and analysis.
-- *Numpy:* For high-performance numerical operations, including log return calculations.
-- *Statsmodels:* For executing statistical models like OLS and ADF tests.
-- *Matplotlib & Seaborn:* For generating plots and visualizations.
+- **Python:** Core programming language.
+- **Streamlit:** For building and deploying the interactive web application.
+- **Pandas:** For data manipulation and analysis.
+- **Numpy:** For high-performance numerical operations, including log return calculations.
+- **Statsmodels:** For executing statistical models like OLS and ADF tests.
+- **Matplotlib & Seaborn:** For generating plots and visualizations.
 
 ## ⚙ How to Use the App
 
-1.  *Navigate* to the [live application link](https://econometrics-hxq3uxg78rjejooxjshbnu.streamlit.app/).
-2.  *Upload a CSV file* using the "Upload your CSV file" button in the sidebar.
-3.  *Select one Dependent Variable* from the dropdown menu.
-4.  *Select one or more Independent Variables* from the multi-select box.
-5.  *Select prices or returns in case of MLR* from the radio button.
-5.  *View the results* which appear automatically in the main panel.
+1.  **Navigate** to the [live application link](https://econometrics-kcyrppu9gtxjkg9iubwpuy.streamlit.app/).
+2.  **Upload a CSV file** using the "Upload your CSV file" button in the sidebar.
+3.  **Select one Dependent Variable** from the dropdown menu.
+4.  **Select one or more Independent Variables** from the multi-select box.
+5.  **Select prices or returns in case of MLR** from the radio button.
+5.  **View the results** which appear automatically in the main panel.
 
 ## 🚀 Local Setup
 
@@ -64,17 +64,17 @@ To run this application on your local machine, please follow the steps below.
 ### Installation & Setup
 
 1.  *Clone the repository:*
-    sh
+    ```sh
     git clone [https://github.com/Neelanjan2448040/Econometrics.git](https://github.com/Neelanjan2448040/Econometrics.git)
-    
+    ```
 
 2.  *Navigate to the project directory:*
-    sh
+    ```sh
     cd Econometrics/LAB-1/
-    
+    ```
 
 3.  *Create and activate a virtual environment (recommended):*
-    sh
+    ```sh
     # For macOS/Linux
     python3 -m venv venv
     source venv/bin/activate
@@ -82,15 +82,16 @@ To run this application on your local machine, please follow the steps below.
     # For Windows
     python -m venv venv
     .\venv\Scripts\activate
-    
+    ```
 
 4.  *Install the required dependencies:*
-    sh
+    ```sh
     pip install -r requirements.txt
-    
+    ```
 
 5.  *Run the Streamlit application:*
-    sh
+    ```sh
     streamlit run app.py
+    ```
     
     Your web browser should automatically open to the application's local address.
